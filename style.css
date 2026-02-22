@@ -171,6 +171,13 @@ h1,h2,h3,h4,h5,h6 {
     height: 70px;
 }
 
+.bg-local-search {
+    background-color: #f0f5f8;
+}
+main{
+    padding-top: 50px;
+}
+
 /* navbar */
 .navbar {
     background-color: var(--primary-color);
