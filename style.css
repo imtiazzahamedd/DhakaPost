@@ -418,7 +418,7 @@ main {
 }
 
 .poll-date {
-    font-size: 14px;
+    font-size: 12px;
     color: var(--text-s-color);
     font-weight: 500;
 }
@@ -436,17 +436,19 @@ main {
 }
 
 .poll-question h5 {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.5;
     color: #000;
 }
 
 .poll-option {
     background-color: #f0f5f8;
-    padding: 10px 15px;
+    padding: 6px 12px;
     border-radius: 5px;
     border: 1px solid #e3eaee;
     transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
 }
 
 .poll-option:hover {
@@ -456,6 +458,7 @@ main {
 .poll-option .form-check-input {
     margin-right: 10px;
     cursor: pointer;
+    margin-top: 0;
 }
 
 .poll-option .form-check-label {
@@ -465,7 +468,7 @@ main {
 }
 
 .voter-count {
-    font-size: 16px;
+    font-size: 14px;
     color: #000;
 }
 
