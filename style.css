@@ -121,9 +121,22 @@ h6 {
     line-clamp: 1;
 }
 
+.news-title1 {
+    font-size: 1.85rem;
+    line-height: 2.3rem;
+    font-weight: 700;
+    color: var(--text-p-color);
+    font-family: 'SolaimanLipi', sans-serif;
+    display: -webkit-box !important;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-align: start;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+}
 .news-title2 {
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
     font-weight: 500;
     color: var(--text-p-color);
     font-family: 'SolaimanLipi', sans-serif;
@@ -136,8 +149,8 @@ h6 {
 }
 
 .news-title3 {
-    font-size: 17px;
-    line-height: 24px;
+    font-size: 1rem;
+    line-height: 1.5rem;
     font-weight: 500;
     color: var(--text-p-color);
     font-family: 'SolaimanLipi', sans-serif;
