@@ -1,8 +1,18 @@
 @media (max-width: 768px) {
     .navbar-brand img {
-            width: 130px;
-        }
-        .atlast-container{
-            padding: 0px 5px !important;
-        }
+        width: 130px;
+    }
+
+    .atlast-container {
+        padding: 0px 5px !important;
+    }
+
+    .poll-card {
+        margin-top: 2rem;
+        padding: 1.5rem !important;
+    }
+
+    .poll-img {
+        width: 100% !important;
+    }
 }
