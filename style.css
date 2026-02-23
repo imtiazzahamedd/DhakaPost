@@ -17,6 +17,12 @@
     src: url('assets/fonts/SutonnyMJ\ Regular.ttf');
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
 .primary-horizontal,
 .secondary-horizontal {
     width: 100%;
@@ -76,7 +82,12 @@ h6 {
 .form-control:focus {
     box-shadow: unset !important;
 }
-
+.summery {
+    line-height: 26px;
+    font-size: 17px;
+    color: var(--text-s-color);
+    font-size: 17px;
+}
 .summery-1,
 .summery-2,
 .summery-3,
@@ -642,4 +653,43 @@ footer ul li {
 
 .footer-low {
     padding-bottom: 30px;
+}
+
+/* newss */
+.int {
+    color: var(--text-s-color);
+    font-weight: 600;
+    font-size: 1.1rem;
+    font-family: SolaimanLipi;
+    border-bottom: 2px solid;
+    width: fit-content;
+}
+.comment{
+    border: 1px solid #dee2e6;
+    margin-top: 2rem;
+}
+.comment-text{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 15px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: 0;
+}
+.empty{
+    height: 55px;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+.more{
+    color: var(--primary-color);
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-top: -10px;
+}
+.more-text{
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-top: -10px;
 }
