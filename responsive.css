@@ -15,4 +15,16 @@
     .poll-img {
         width: 100% !important;
     }
+
+    .photo-gallery-section {
+        padding: 3rem 0 !important;
+    }
+
+    .gallery-caption {
+        font-size: 1rem;
+    }
+
+    .featured .gallery-caption {
+        font-size: 1.2rem;
+    }
 }
